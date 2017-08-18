@@ -1,0 +1,12 @@
+---
+# tasks file for ansible-firewalld-role
+- name: "Install firewalld package"
+  yum:
+    name: "firewalld"
+    state: "latest"
+
+- name: "Start and enable firewalld"
+  service:
+    name: "firewalld"
+    state: "started"
+    enabled: yes
