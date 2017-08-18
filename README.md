@@ -1,4 +1,4 @@
-Role Name
+ansible-firewalld-role
 =========
 
 This role installs, starts and enables firewalld
